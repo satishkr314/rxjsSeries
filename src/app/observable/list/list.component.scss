@@ -1,0 +1,29 @@
+ul
+{
+    list-style-type: none;
+}
+ul li
+{
+    width: 220px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: lightblue;
+    margin-left: 12px;
+    text-align: center;
+}
+ul li a
+{
+    margin-top: 45px;
+}
+ul li:hover
+{
+    // background-color: slateblue;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    border: 0px;
+}
+
+.alignHorizental
+{
+    display: flex;
+}
